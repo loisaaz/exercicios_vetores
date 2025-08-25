@@ -1,4 +1,3 @@
-// Imprimir o vetor lido e os valores encontrados.
 #include <stdio.h>
 
 int main()

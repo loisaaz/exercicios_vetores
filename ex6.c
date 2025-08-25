@@ -2,7 +2,7 @@
 
 int main()
 {
-    float vetor[10], soma, media;
+    float vetor[20], soma, media;
     int i, menor_media;
     
     if (i < 0)
@@ -12,21 +12,21 @@ int main()
         
     }
     
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < 20; i++)
     {
         printf("\n\tDigite o número [%d]: ", i);
         scanf("%f", &vetor[i]);
     }
     
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < 20; i++)
     {
         soma += vetor[i]; 
         
     }    
     
-    media = soma / 10;
+    media = soma / 20;
     
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < 20; i++)
     {
         if (vetor[i] < media)
         {

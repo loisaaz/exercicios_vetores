@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int x[21], y[21], z[21];
+    int x[20], y[20], z[20];
     int N, cont;
     
     printf("\n\tDigite quantos números serão lidos (máx 20): ");
@@ -11,7 +11,6 @@ int main() {
     {
         printf("\n\tO tamanho máximo é 20, encerrando programa...");
         return 1;
-        
     }
 
     for (cont = 0;  cont < N; cont ++)
@@ -34,17 +33,20 @@ int main() {
     }
     
     printf("\n\tVetor X: ");
-    for (cont = 0; cont < N; cont++) {
+    for (cont = 0; cont < N; cont++) 
+    {
         printf("%d ", x[cont]);
     }
     
     printf("\n\tVetor Y: ");
-    for (cont = 0; cont < N; cont++) {
+    for (cont = 0; cont < N; cont++) 
+    {
         printf("%d ", y[cont]);
     }
     
     printf("\n\tVetor Z: ");
-    for (cont = 0; cont < N; cont++) {
+    for (cont = 0; cont < N; cont++) 
+    {
         printf("%d ", z[cont]);
     }
 
